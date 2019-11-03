@@ -1,4 +1,4 @@
-# Template pour une application NodeJS - Express - Jest
+# Template pour une application NodeJS - Express - Jest - Supertest
 
 ## premier lancement
 
