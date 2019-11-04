@@ -6,9 +6,7 @@
   "scripts": {
     "test": "jest --watch",
     "build": "tsc",
-    "start": "concurrently --kill-others npm:watch-*",
-    "watch-typescript": "tsc -w",
-    "watch-node": "nodemon dist/src/server.js"
+    "start": "nodemon --inspect src/server.ts"
   },
   "author": "julienboz@gmail.com",
   "license": "MIT",
@@ -24,6 +22,7 @@
     "nodemon": "^1.19.4",
     "supertest": "^4.0.2",
     "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
   }
 }
